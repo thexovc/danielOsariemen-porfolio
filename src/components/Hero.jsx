@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I build APIs, design frontends, <br className="sm:block hidden" />
-            and develop for blockchain.
+            and write smart contracts.
           </p>
         </div>
       </div>
