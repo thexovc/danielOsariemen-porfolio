@@ -22,10 +22,14 @@ const Hero = () => {
             I build APIs, design frontends, <br className="sm:block hidden" />
             and write smart contracts.
           </p>
+
+          <h2 className={`${styles.heroHeadText} text-white`}>
+            <span className="text-[#915EFF]">Journey Through My Portfolio</span>
+          </h2>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
