@@ -42,19 +42,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web Developer",
+    icon: web,
+  },
+  {
+    title: "Smart Contract Developer",
     icon: creator,
   },
 ];
@@ -116,55 +112,72 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Node.js Backend Developer",
+    company_name: "Swiftreseller ",
+    icon: "https://swiftreseller.com/assets/uploads/user5b384ce32d8cdef02bc3a139d4cac0a22bb029e8/f2b182ac7d364b3fb0a634d2d7bb06ac.png",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Mar 2021 - Jun 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed RESTful APIs for seamless user engagement and social media account management.",
+      "Ensured secure authentication using JWT and integrated real-time analytics features.",
+      "Optimized database architecture for efficient data retrieval and storage.",
+      "Implemented caching strategies and load balancing to enhance performance.",
+      "Collaborated with UI/UX designers and frontend developers for a cohesive user experience.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer (Backend Node.js)",
+    company_name: "Gsubz.com",
+    icon: "https://gsubz.com/uploads/2021/9/1/1331878181.png",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2021 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Improved the backend structure for smooth data, airtime, and service transactions.",
+      "Collaborated with different teams to make processes like data delivery and transactions automated.",
+      "Ensured transactions were secure and reliable, allowing quick and safe airtime and data transfers.",
+      "Assisted in connecting APIs to websites and apps to make user interactions seamless.",
+      "Helped users and kept the platform dependable by offering support and solutions.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software engineer (Backend Node.js)",
+    company_name: "Patosehi Box",
+    icon: "https://www.patosehibox.com/assets/logo-959e4a99.png",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Feb 2022 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led backend development for Patosehi Box's logistics platform.",
+      "Collaborated with cross-functional teams to streamline package delivery.",
+      "Designed robust APIs for frontend-backend communication.",
+      "Prioritized data security for sensitive logistics transactions.",
+      "Prioritized data security for sensitive logistics transactions.",
+      "Integrated secure payment gateways for smooth transactions.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Backend and Smart contract developer",
+    company_name: "Japaul",
+    icon: "https://japaulgroup.com/wp-content/uploads/2022/07/jgroup-logo-2048x685.png",
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Nov 2022 - Mar 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built backend for NFT marketplace, enabling smooth user interactions.",
+      "Implemented blockchain smart contracts for minting, trading NFTs.",
+      "Collaborated on frontend integration and UX enhancement.",
+      "Developed secure APIs and optimized platform performance.",
+    ],
+  },
+  {
+    title: "Backend Developer",
+    company_name: "Wisper",
+    icon: "https://app.wisper.ng/static/media/wisper.6b00d97d.png",
+    iconBg: "#E6DEDD",
+    date: "May 2023 - Present",
+    points: [
+      "Contributed to the enhancement of Wisper's internet service platform, ensuring seamless user experiences.",
+      "Collaborated with the team to optimize backend architecture for reliable and efficient data delivery.",
+      "Developed APIs for services and reliability.",
+      "Supported network stability and uptime.",
     ],
   },
 ];
@@ -172,38 +185,38 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Invaluable contribution! Your dedication to network reliability has been a game-changer for us.",
+    name: "Great",
+    designation: "CEO",
+    company: "Gsubz Ng",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Smart contracts under your guidance have redefined how we approach security and transparency. Truly remarkable work.",
+    name: "Kola wole",
+    designation: "IT Personal",
+    company: "Japaul Nft",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Remarkable work! Your APIs have elevated our user experience to new heights.",
+    name: "Ebuka",
+    designation: "PM",
+    company: "Wisper Ng",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Smart School Transport API: Efficient Routes & Safety Enhancement",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Engineered a transformative API for a school transport system, optimizing routes, schedules, and real-time tracking. This innovation ensures student safety and punctuality, while providing intuitive interfaces for seamless communication and monitoring.",
     tags: [
       {
-        name: "react",
+        name: "node",
         color: "blue-text-gradient",
       },
       {
@@ -211,54 +224,57 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/thexovc/uniben-bus-fare-mobile-server",
   },
   {
-    name: "Job IT",
+    name: "Node.js-Powered ChatGPT Server: Quantum GPT",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a powerful Node.js-based ChatGPT server, enabling seamless integration of OpenAI's language capabilities into applications. This server solution empowers real-time, interactive communication with the ChatGPT model, offering natural and engaging conversations for a wide range of use cases",
     tags: [
       {
-        name: "react",
+        name: "openai",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "express",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "node.js",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image:
+      "https://www.searchenginejournal.com/wp-content/uploads/2022/12/what-is-chatgpt-6393027101b3c-sej-760x400.webp",
+    source_code_link: "https://github.com/thexovc/quantum-gpt-server",
   },
   {
-    name: "Trip Guide",
+    name: "NFT Marketplace",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An NFT marketplace rooted in the spirit of Africa. This platform offers a space for creators to share their digital assets, fostering a vibrant community that celebrates culture and innovation. Join us in exploring the intersection of technology and creativity.",
     tags: [
       {
-        name: "nextjs",
+        name: "solidity",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "openzeppelin",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "hardhat",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image:
+      "https://metacontent.b-cdn.net/wp-content/uploads/2021/11/image3-1-2.jpg",
+    source_code_link: "https://github.com/thexovc/Nft-Market-Place",
   },
 ];
 
