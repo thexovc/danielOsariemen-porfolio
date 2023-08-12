@@ -191,14 +191,14 @@ const testimonials = [
     company: "Gsubz Ng",
     image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
-  {
-    testimonial:
-      "Smart contracts under your guidance have redefined how we approach security and transparency. Truly remarkable work.",
-    name: "Kola wole",
-    designation: "IT Personal",
-    company: "Japaul Nft",
-    image: "https://randomuser.me/api/portraits/men/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "Smart contracts under your guidance have redefined how we approach security and transparency. Truly remarkable work.",
+  //   name: "Kola wole",
+  //   designation: "IT Personal",
+  //   company: "Japaul Nft",
+  //   image: "https://randomuser.me/api/portraits/men/6.jpg",
+  // },
   {
     testimonial:
       "Remarkable work! Your APIs have elevated our user experience to new heights.",
