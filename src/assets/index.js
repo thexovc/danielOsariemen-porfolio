@@ -15,11 +15,14 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import solidity from "./tech/solidity.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nest from "./tech/nestjs.png";
+import express from "./tech/express.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -47,8 +50,10 @@ export {
   javascript,
   mongodb,
   nodejs,
+  nest,
   reactjs,
   redux,
+  express,
   tailwind,
   typescript,
   threejs,
@@ -56,6 +61,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  solidity,
   carrent,
   jobit,
   tripguide,

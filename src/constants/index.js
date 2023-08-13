@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  solidity,
+  nest,
+  express,
 } from "../assets";
 
 export const navLinks = [
@@ -57,13 +60,26 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Node JS",
+    icon: nodejs,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "MongoDB",
+    icon: mongodb,
   },
+  {
+    name: "Express",
+    icon: express,
+  },
+  {
+    name: "Solidity",
+    icon: solidity,
+  },
+  {
+    name: "Nest",
+    icon: nest,
+  },
+
   {
     name: "JavaScript",
     icon: javascript,
@@ -71,6 +87,14 @@ const technologies = [
   {
     name: "TypeScript",
     icon: typescript,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
   },
   {
     name: "React JS",
@@ -84,18 +108,7 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -116,7 +129,7 @@ const experiences = [
     company_name: "Swiftreseller ",
     icon: "https://swiftreseller.com/assets/uploads/user5b384ce32d8cdef02bc3a139d4cac0a22bb029e8/f2b182ac7d364b3fb0a634d2d7bb06ac.png",
     iconBg: "#383E56",
-    date: "Mar 2021 - Jun 2021",
+    // date: "Mar 2021 - Jun 2021",
     points: [
       "Developed RESTful APIs for seamless user engagement and social media account management.",
       "Ensured secure authentication using JWT and integrated real-time analytics features.",
@@ -130,7 +143,7 @@ const experiences = [
     company_name: "Gsubz.com",
     icon: "https://gsubz.com/uploads/2021/9/1/1331878181.png",
     iconBg: "#E6DEDD",
-    date: "Sep 2021 - Dec 2021",
+    // date: "Sep 2021 - Dec 2021",
     points: [
       "Improved the backend structure for smooth data, airtime, and service transactions.",
       "Collaborated with different teams to make processes like data delivery and transactions automated.",
@@ -144,7 +157,7 @@ const experiences = [
     company_name: "Patosehi Box",
     icon: "https://www.patosehibox.com/assets/logo-959e4a99.png",
     iconBg: "#383E56",
-    date: "Feb 2022 - May 2022",
+    // date: "Feb 2022 - May 2022",
     points: [
       "Led backend development for Patosehi Box's logistics platform.",
       "Collaborated with cross-functional teams to streamline package delivery.",
@@ -159,7 +172,7 @@ const experiences = [
     company_name: "Japaul",
     icon: "https://japaulgroup.com/wp-content/uploads/2022/07/jgroup-logo-2048x685.png",
     iconBg: "#E6DEDD",
-    date: "Nov 2022 - Mar 2023",
+    // date: "Nov 2022 - Mar 2023",
     points: [
       "Built backend for NFT marketplace, enabling smooth user interactions.",
       "Implemented blockchain smart contracts for minting, trading NFTs.",
@@ -172,7 +185,7 @@ const experiences = [
     company_name: "Wisper",
     icon: "https://app.wisper.ng/static/media/wisper.6b00d97d.png",
     iconBg: "#E6DEDD",
-    date: "May 2023 - Present",
+    // date: "May 2023 - Present",
     points: [
       "Contributed to the enhancement of Wisper's internet service platform, ensuring seamless user experiences.",
       "Collaborated with the team to optimize backend architecture for reliable and efficient data delivery.",
