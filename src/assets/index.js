@@ -33,6 +33,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import patosehi from "./patosehi.jpeg";
+import swift from "./swift.png";
+import nft from "./nft.png";
+import linkbud from "./linkbud.jpeg";
+
 export {
   logo,
   backend,
@@ -65,4 +70,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  patosehi,
+  swift,
+  nft,
+  linkbud,
 };

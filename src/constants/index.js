@@ -15,17 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
-  jobit,
-  tripguide,
-  threejs,
   solidity,
   nest,
   express,
+  patosehi,
+  swift,
+  nft,
+  linkbud,
 } from "../assets";
 
 export const navLinks = [
@@ -45,12 +42,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Backend Developer",
+    title: "Backend Engineer",
     icon: backend,
   },
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
+  },
+  {
+    title: "Mobile App Developer",
+    icon: mobile,
   },
   {
     title: "Smart Contract Developer",
@@ -127,8 +128,8 @@ const experiences = [
   {
     title: "Node.js Backend Developer",
     company_name: "Swiftreseller ",
-    icon: "https://swiftreseller.com/assets/uploads/user5b384ce32d8cdef02bc3a139d4cac0a22bb029e8/f2b182ac7d364b3fb0a634d2d7bb06ac.png",
-    iconBg: "#383E56",
+    icon: swift,
+    iconBg: "#E6DEDD",
     // date: "Mar 2021 - Jun 2021",
     points: [
       "Developed RESTful APIs for seamless user engagement and social media account management.",
@@ -139,7 +140,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer (Backend Node.js)",
+    title: "Software Engineer",
     company_name: "Gsubz.com",
     icon: "https://gsubz.com/uploads/2021/9/1/1331878181.png",
     iconBg: "#E6DEDD",
@@ -149,19 +150,20 @@ const experiences = [
       "Collaborated with different teams to make processes like data delivery and transactions automated.",
       "Ensured transactions were secure and reliable, allowing quick and safe airtime and data transfers.",
       "Assisted in connecting APIs to websites and apps to make user interactions seamless.",
-      "Helped users and kept the platform dependable by offering support and solutions.",
+      "Provided user support and solutions, contributing to platform dependability both on the frontend and backend.",
     ],
   },
   {
-    title: "Software engineer (Backend Node.js)",
+    title: "Software engineer ",
     company_name: "Patosehi Box",
-    icon: "https://www.patosehibox.com/assets/logo-959e4a99.png",
-    iconBg: "#383E56",
+    icon: patosehi,
+    iconBg: "#E6DEDD",
     // date: "Feb 2022 - May 2022",
     points: [
       "Led backend development for Patosehi Box's logistics platform.",
       "Collaborated with cross-functional teams to streamline package delivery.",
       "Designed robust APIs for frontend-backend communication.",
+      "Contributed to the frontend, creating engaging user interfaces and delivering seamless experiences with React JS",
       "Prioritized data security for sensitive logistics transactions.",
       "Prioritized data security for sensitive logistics transactions.",
       "Integrated secure payment gateways for smooth transactions.",
@@ -246,6 +248,31 @@ const projects = [
       "https://github.com/thexovc/uniben-bus-fare-mobile-server",
   },
   {
+    name: "URL Shortener - LinkBud",
+    description:
+      "Created LinkBud, a user-friendly URL shortener for simplified link management. With an intuitive interface, it streamlines the process of shortening URLs, making sharing and monitoring links convenient and efficient.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nestjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: linkbud,
+    source_code_link: "https://github.com/thexovc/linkbud-url-shortener-client",
+  },
+  {
     name: "Node.js-Powered ChatGPT Server: Quantum GPT",
     description:
       "Developed a powerful Node.js-based ChatGPT server, enabling seamless integration of OpenAI's language capabilities into applications. This server solution empowers real-time, interactive communication with the ChatGPT model, offering natural and engaging conversations for a wide range of use cases",
@@ -285,8 +312,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image:
-      "https://metacontent.b-cdn.net/wp-content/uploads/2021/11/image3-1-2.jpg",
+    image: nft,
     source_code_link: "https://github.com/thexovc/Nft-Market-Place",
   },
 ];

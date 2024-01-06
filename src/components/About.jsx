@@ -47,11 +47,21 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript, Solidity
+        {/* I'm a skilled software developer with experience in TypeScript, Solidity
         and JavaScript, and expertise in frameworks like React, Node.js, and
         hardhat. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        real-world problems. Let's work together to bring your ideas to life! */}
+        {/*  */}
+        I'm a seasoned software engineer with expertise in both frontend and
+        backend development. I specialize in Node.js and Python for backend
+        solutions, and on the frontend, I excel in crafting engaging interfaces
+        using React JS, NextJs, Typescript, and JavaScript. Additionally, I
+        bring proficiency in Solidity for smart contract development. I
+        specialize in designing robust APIs, optimizing database performance,
+        and creating intuitive user experiences. Committed to clean and
+        efficient code, I thrive on solving complex problems. Let's collaborate
+        to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

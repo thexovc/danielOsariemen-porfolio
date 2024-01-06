@@ -1,12 +1,11 @@
 import React from "react";
 
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
 const Tech = () => {
   return (
-    <div className="flex flex-row flex-wrap justify-center gap-10">
+    <div className="flex flex-row flex-wrap justify-center gap-2">
       {technologies.map((technology) => (
         <div className="w-28 h-28" key={technology.name}>
           <img
@@ -17,7 +16,7 @@ const Tech = () => {
               width: "5rem",
               height: "5rem",
               background: "white",
-              borderRadius: "50%",
+              borderRadius: "20%",
             }}
           />
         </div>
