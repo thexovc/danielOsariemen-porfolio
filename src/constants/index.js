@@ -23,6 +23,7 @@ import {
   swift,
   nft,
   linkbud,
+  tinapay,
 } from "../assets";
 
 export const navLinks = [
@@ -126,7 +127,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Node.js Backend Developer",
+    title: "FullStack Developer",
     company_name: "Swiftreseller ",
     icon: swift,
     iconBg: "#E6DEDD",
@@ -193,6 +194,20 @@ const experiences = [
       "Collaborated with the team to optimize backend architecture for reliable and efficient data delivery.",
       "Developed APIs for services and reliability.",
       "Supported network stability and uptime.",
+    ],
+  },
+  {
+    title: "FullStack Mobile Engineer",
+    company_name: "Tinapay",
+    icon: tinapay,
+    iconBg: "#E6DEDD",
+    // date: "May 2023 - Present",
+    points: [
+      "Contributed to the development and improvement of Tinapay's mobile app backend, ensuring a robust and scalable architecture.",
+      "Designed, developed, and maintained APIs that supported seamless interactions between the Tinapay mobile app and backend services..",
+      "Worked on both mobile and web backend systems, ensuring a consistent and integrated experience for users across different platforms.",
+      "Collaborated with quality assurance teams to conduct thorough testing, identifying and resolving potential issues to ensure the stability and security of the Tinapay mobile app.",
+      "Participated in regular code reviews and team discussions to foster a culture of continuous improvement.",
     ],
   },
 ];

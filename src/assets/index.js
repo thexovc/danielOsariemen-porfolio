@@ -37,6 +37,7 @@ import patosehi from "./patosehi.jpeg";
 import swift from "./swift.png";
 import nft from "./nft.png";
 import linkbud from "./linkbud.jpeg";
+import tinapay from "./tinapay.jpeg";
 
 export {
   logo,
@@ -74,4 +75,5 @@ export {
   swift,
   nft,
   linkbud,
+  tinapay,
 };
