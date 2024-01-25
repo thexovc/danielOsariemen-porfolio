@@ -40,6 +40,14 @@ const ExperienceCard = ({ experience }) => {
         >
           {experience.company_name}
         </p>
+        <a
+          href={experience.company_link}
+          target="_blank"
+          className="text-blue-300 text-[14px] font-semibold"
+          style={{ margin: 0 }}
+        >
+          {experience.company_link}
+        </a>
       </div>
 
       <ul className="mt-5 list-disc ml-5 space-y-2">

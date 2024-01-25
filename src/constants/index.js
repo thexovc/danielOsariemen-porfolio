@@ -24,6 +24,7 @@ import {
   nft,
   linkbud,
   tinapay,
+  spike,
 } from "../assets";
 
 export const navLinks = [
@@ -128,8 +129,9 @@ const technologies = [
 const experiences = [
   {
     title: "FullStack Developer",
-    company_name: "Swiftreseller ",
-    icon: swift,
+    company_name: "Social Spike Hub ",
+    company_link: "https://socialspikehub.com/",
+    icon: spike,
     iconBg: "#E6DEDD",
     // date: "Mar 2021 - Jun 2021",
     points: [
@@ -143,6 +145,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Gsubz.com",
+    company_link: "https://gsubz.com/",
     icon: "https://gsubz.com/uploads/2021/9/1/1331878181.png",
     iconBg: "#E6DEDD",
     // date: "Sep 2021 - Dec 2021",
@@ -157,6 +160,7 @@ const experiences = [
   {
     title: "Software engineer ",
     company_name: "Patosehi Box",
+    company_link: "https://patosehibox.com/",
     icon: patosehi,
     iconBg: "#E6DEDD",
     // date: "Feb 2022 - May 2022",
@@ -173,6 +177,7 @@ const experiences = [
   {
     title: "Backend and Smart contract developer",
     company_name: "Japaul",
+    company_link: "https://jpgoldcoin.app/",
     icon: "https://japaulgroup.com/wp-content/uploads/2022/07/jgroup-logo-2048x685.png",
     iconBg: "#E6DEDD",
     // date: "Nov 2022 - Mar 2023",
@@ -186,6 +191,7 @@ const experiences = [
   {
     title: "Backend Developer",
     company_name: "Wisper",
+    company_link: "https://app.wisper.ng/",
     icon: "https://app.wisper.ng/static/media/wisper.6b00d97d.png",
     iconBg: "#E6DEDD",
     // date: "May 2023 - Present",
@@ -199,6 +205,7 @@ const experiences = [
   {
     title: "FullStack Mobile Engineer",
     company_name: "Tinapay",
+    company_link: "https://tinapay.co/",
     icon: tinapay,
     iconBg: "#E6DEDD",
     // date: "May 2023 - Present",

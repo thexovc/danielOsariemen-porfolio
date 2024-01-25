@@ -39,6 +39,8 @@ import nft from "./nft.png";
 import linkbud from "./linkbud.jpeg";
 import tinapay from "./tinapay.jpeg";
 
+import spike from "./spike.png";
+
 export {
   logo,
   backend,
@@ -76,4 +78,5 @@ export {
   nft,
   linkbud,
   tinapay,
+  spike,
 };
