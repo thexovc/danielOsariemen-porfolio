@@ -178,7 +178,7 @@ const experiences = [
     title: "Backend and Smart contract developer",
     company_name: "Japaul",
     company_link: "https://jpgoldcoin.app/",
-    icon: "https://japaulgroup.com/wp-content/uploads/2022/07/jgroup-logo-2048x685.png",
+    icon: "https://www.jpgoldcoin.app/assets/logo-bf2a4dc1.png",
     iconBg: "#E6DEDD",
     // date: "Nov 2022 - Mar 2023",
     points: [
@@ -215,6 +215,32 @@ const experiences = [
       "Worked on both mobile and web backend systems, ensuring a consistent and integrated experience for users across different platforms.",
       "Collaborated with quality assurance teams to conduct thorough testing, identifying and resolving potential issues to ensure the stability and security of the Tinapay mobile app.",
       "Participated in regular code reviews and team discussions to foster a culture of continuous improvement.",
+    ],
+  },
+  {
+    title: "Backend Engineer",
+    company_name: "GACN",
+    company_link: "https://www.gacn.com/",
+    icon: "https://www.gacn.com/static/media/logo3.ea68878976beba677b68cf7c4c316514.svg",
+    iconBg: "#E6DEDD",
+    // date: "May 2023 - Present",
+    points: [
+      "Engineered a dynamic questionnaire system, automating and optimizing customer due diligence processes.",
+      "Implemented robust role-based access controls, ensuring granular security measures for sensitive data handling.",
+      "Integrated third-party APIs like Calendly and Cloudinary, enhancing functionality and scalability while maintaining data integrity and security.",
+    ],
+  },
+  {
+    title: "Backend Developer",
+    company_name: "DataCoupon",
+    company_link: "https://datacoupon.ng/",
+    icon: "data:image/png;base64,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",
+    iconBg: "#E6DEDD",
+    // date: "May 2023 - Present",
+    points: [
+      "Developed and maintained backend systems for a coupon generation and redemption for the platform.",
+      "Optimized database queries and storage strategies to handle large volumes of coupon data efficiently",
+      "Collaborated with frontend developers to ensure seamless integration and user experience.",
     ],
   },
 ];
