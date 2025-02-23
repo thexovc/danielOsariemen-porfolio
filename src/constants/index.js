@@ -178,7 +178,7 @@ const experiences = [
     title: "Backend and Smart contract developer",
     company_name: "Japaul",
     company_link: "https://jpgoldcoin.app/",
-    icon: "https://www.jpgoldcoin.app/assets/logo-bf2a4dc1.png",
+    icon: "https://www.jpgoldcoin.app/jp-logo.png",
     iconBg: "#E6DEDD",
     // date: "Nov 2022 - Mar 2023",
     points: [
@@ -241,6 +241,22 @@ const experiences = [
       "Developed and maintained backend systems for a coupon generation and redemption for the platform.",
       "Optimized database queries and storage strategies to handle large volumes of coupon data efficiently",
       "Collaborated with frontend developers to ensure seamless integration and user experience.",
+    ],
+  },
+  {
+    title: "Backend Engineer",
+    company_name: "AutoGirl NG",
+    company_link: "https://autogirl.ng/",
+    icon: "https://autogirl.ng/wp-content/uploads/2024/08/Autogirl-1-1.webp",
+    iconBg: "#E6DEDD",
+    // date: "May 2023 - Present",
+    points: [
+      "Automated the vehicle booking system, allowing users to seamlessly rent cars without manual intervention.",
+      "Developed a scalable backend using NestJS and MongoDB, ensuring efficient data storage and retrieval.",
+      "Implemented secure authentication and authorization mechanisms, improving platform security.",
+      "Integrated payment processing systems to handle transactions smoothly for renters and hosts.",
+      "Designed an automated host verification process, reducing onboarding time for car owners.",
+      "Enhanced the platform’s scheduling functionality, allowing users to pre-book vehicles efficiently.",
     ],
   },
 ];
