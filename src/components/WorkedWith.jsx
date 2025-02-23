@@ -14,7 +14,7 @@ const WorkedWith = () => {
   }));
 
   return (
-    <>
+    <div className="mt-[100px] relative z-0 bg-primary">
       <motion.div variants={textVariant()} className="text-center mb-12">
         <h2 className={`${styles.sectionHeadText} text-white`}>
           Trusted by Industry Leaders
@@ -24,7 +24,7 @@ const WorkedWith = () => {
         </p>
       </motion.div>
 
-      <div className="flex flex-wrap justify-center items-center gap-8 mt-10">
+      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-8 max-w-7xl mx-auto px-6">
         {companies.map((company, index) => (
           <motion.a
             key={company.name}
@@ -32,12 +32,12 @@ const WorkedWith = () => {
             target="_blank"
             rel="noopener noreferrer"
             variants={fadeIn("up", "spring", index * 0.1, 0.75)}
-            className="w-[150px] h-[80px] bg-tertiary rounded-xl flex items-center justify-center p-4 hover:bg-[#2A0E61] transition-colors cursor-pointer"
+            className="bg-tertiary rounded-xl flex items-center justify-center p-3 md:p-4 hover:bg-[#2A0E61] transition-colors cursor-pointer aspect-video"
           >
             <img
               src={company.logo}
               alt={company.name}
-              className="w-full h-full object-contain filter brightness-100 hover:brightness-125 transition-all"
+              className="w-full h-full object-contain filter brightness-100 hover:brightness-125 transition-all p-2"
             />
           </motion.a>
         ))}
@@ -45,13 +45,13 @@ const WorkedWith = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-12 text-secondary text-[18px] max-w-3xl mx-auto text-center"
+        className="mt-12 text-secondary text-[16px] md:text-[18px] max-w-3xl mx-auto text-center px-6"
       >
         With over 6 years of experience, I've had the privilege of working with these 
         innovative companies, delivering impactful solutions and driving technological advancement.
       </motion.p>
-    </>
+    </div>
   );
 };
 
-export default SectionWrapper(WorkedWith, "workedWith");
+export default SectionWrapper(WorkedWith, "");
