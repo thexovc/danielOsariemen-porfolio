@@ -219,6 +219,19 @@ const experiences = [
   },
   {
     title: "Backend Engineer",
+    company_name: "SPIKE SUBS",
+    company_link: "",
+    icon: "https://www.spikesubs.com/assets/logo-e7jXajCq.png",
+    iconBg: "#E6DEDD",
+    date: "June 2022 - September 2022",
+    points: [
+      "Developed a VTU system using NestJS and PostgreSQL, ensuring a 99% transaction success rate with over 150+ active users.",
+      "Integrated role-based access control (RBAC) to improve security by 95%.",
+      "Optimized backend queries, leading to a 40% improvement in API response times.",
+    ],
+  },
+  {
+    title: "Backend Engineer",
     company_name: "GACN",
     company_link: "https://www.gacn.com/",
     icon: "https://www.gacn.com/static/media/logo3.ea68878976beba677b68cf7c4c316514.svg",
