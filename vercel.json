@@ -1,8 +1,4 @@
 {
-  "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "framework": "vite",
-  "nodeVersion": "22.x"
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite"
 }
-
