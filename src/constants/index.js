@@ -44,232 +44,218 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Backend Engineer",
+    title: "Senior Software Engineer",
     icon: backend,
   },
   {
-    title: "Frontend Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
-    title: "Mobile App Developer",
+    title: "Mobile Engineer",
     icon: mobile,
   },
   {
-    title: "Smart Contract Developer",
+    title: "Blockchain Engineer",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Express",
-    icon: express,
-  },
-  {
-    name: "Solidity",
-    icon: solidity,
-  },
-  {
-    name: "Nest",
-    icon: nest,
-  },
-
-  {
-    name: "JavaScript",
-    icon: javascript,
+    name: "React.js",
+    icon: reactjs,
   },
   {
     name: "TypeScript",
     icon: typescript,
   },
   {
-    name: "HTML 5",
-    icon: html,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Node.js",
+    icon: nodejs,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "NestJS",
+    icon: nest,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Express",
+    icon: express,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "PostgreSQL",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+  },
+  {
+    name: "Redis",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-
   {
-    name: "git",
+    name: "Redux",
+    icon: redux,
+  },
+  {
+    name: "Solidity",
+    icon: solidity,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Kubernetes",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+  },
+  {
+    name: "RabbitMQ",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg",
+  },
+  {
+    name: "GraphQL",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+  },
+  {
+    name: "React Native",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  },
+  {
+    name: "Next.js",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  },
+  {
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "FullStack Developer",
-    company_name: "Social Spike Hub ",
-    company_link: "https://socialspikehub.com/",
-    icon: spike,
+    title: "Senior Mobile Engineer",
+    company_name: "Babelos (Muta App)",
+    company_link: "https://babelos.com/",
+    icon: "/work/babelos.webp",
     iconBg: "#E6DEDD",
-    // date: "Mar 2021 - Jun 2021",
+    date: "June 2024 - Present",
     points: [
-      "Developed RESTful APIs for seamless user engagement and social media account management.",
-      "Ensured secure authentication using JWT and integrated real-time analytics features.",
-      "Optimized database architecture for efficient data retrieval and storage.",
-      "Implemented caching strategies and load balancing to enhance performance.",
-      "Collaborated with UI/UX designers and frontend developers for a cohesive user experience.",
+      "Lead engineer for Muta, a gamified language learning platform built with React Native (Expo).",
+      "Designed scalable UI architecture and reusable components improving feature velocity.",
+      "Implemented real-time lesson updates, streak systems, leaderboards, and progress tracking.",
+      "Integrated backend APIs and optimized client-side caching for thousands of concurrent learners.",
     ],
   },
   {
-    title: "Software Engineer",
-    company_name: "Gsubz.com",
-    company_link: "https://gsubz.com/",
-    icon: "https://gsubz.com/uploads/2021/9/1/1331878181.png",
+    title: "Full-Stack Engineer",
+    company_name: "Writagent",
+    company_link: "https://writagent.com/",
+    icon: "/work/writagent.jpeg",
     iconBg: "#E6DEDD",
-    // date: "Sep 2021 - Dec 2021",
+    date: "December 2023 - August 2024",
     points: [
-      "Improved the backend structure for smooth data, airtime, and service transactions.",
-      "Collaborated with different teams to make processes like data delivery and transactions automated.",
-      "Ensured transactions were secure and reliable, allowing quick and safe airtime and data transfers.",
-      "Assisted in connecting APIs to websites and apps to make user interactions seamless.",
-      "Provided user support and solutions, contributing to platform dependability both on the frontend and backend.",
+      "Built and maintained complex backend services using NestJS, microservices, Kubernetes, and RabbitMQ.",
+      "Architected end-to-end AI-driven workflows using OpenAI & LangChain.",
+      "Designed dashboards, interfaces, and admin tools with React.js and TypeScript.",
+      "Implemented PostgreSQL data structures and optimized heavy and distributed workloads.",
+      "Automated onboarding, verification, and reporting workflows—improving operational efficiency by 70%.",
+      "Led testing strategy (unit, integration, E2E) ensuring code reliability.",
     ],
   },
   {
-    title: "Software engineer ",
-    company_name: "Patosehi Box",
-    company_link: "https://patosehibox.com/",
-    icon: patosehi,
+    title: "Backend Engineer",
+    company_name: "MuvmentNG",
+    company_link: "https://muvment.ng/",
+    icon: "/work/muvment.webp",
     iconBg: "#E6DEDD",
-    // date: "Feb 2022 - May 2022",
+    date: "September 2023 - June 2024",
     points: [
-      "Led backend development for Patosehi Box's logistics platform.",
-      "Collaborated with cross-functional teams to streamline package delivery.",
-      "Designed robust APIs for frontend-backend communication.",
-      "Contributed to the frontend, creating engaging user interfaces and delivering seamless experiences with React JS",
-      "Prioritized data security for sensitive logistics transactions.",
-      "Prioritized data security for sensitive logistics transactions.",
-      "Integrated secure payment gateways for smooth transactions.",
+      "Built a scalable backend in NestJS and MongoDB for a vehicle rental system.",
+      "Developed microservices handling bookings, verification, and payment workflows.",
+      "Optimized API performance and automated host verification (40% faster onboarding).",
     ],
   },
   {
-    title: "Backend and Smart contract developer",
+    title: "React Native Developer",
+    company_name: "Thumb and Pin",
+    company_link: "https://thumbandpin.com/",
+    icon: "/work/thumbandpin.png",
+    iconBg: "#E6DEDD",
+    date: "April 2024 - January 2025",
+    points: [
+      "Developed and maintained a fintech app supporting payments and virtual cards.",
+      "Integrated biometric authentication and improved API response times by 30%.",
+      "Collaborated with backend teams on API schema improvements and testing.",
+    ],
+  },
+  {
+    title: "Blockchain Engineer",
     company_name: "Japaul",
     company_link: "https://jpgoldcoin.app/",
-    icon: "https://www.jpgoldcoin.app/jp-logo.png",
+    icon: "/work/japaul.svg",
     iconBg: "#E6DEDD",
-    // date: "Nov 2022 - Mar 2023",
+    date: "March 2023 - September 2024",
     points: [
+      "Designed and deployed smart contracts and cross-chain token bridge (Solana ↔ Ethereum).",
+      "Performed gas optimization, audits, and stability improvements to ensure secure transactions.",
       "Built backend for NFT marketplace, enabling smooth user interactions.",
-      "Implemented blockchain smart contracts for minting, trading NFTs.",
       "Collaborated on frontend integration and UX enhancement.",
-      "Developed secure APIs and optimized platform performance.",
     ],
   },
   {
-    title: "Backend Developer",
-    company_name: "Wisper",
-    company_link: "https://app.wisper.ng/",
-    icon: "https://app.wisper.ng/static/media/wisper.6b00d97d.png",
+    title: "Lead Backend Developer",
+    company_name: "Gas Aggregator Company Nigeria (GACN)",
+    company_link: "https://www.gacn.com/",
+    icon: "https://www.gacn.com/static/media/logo3.ea68878976beba677b68cf7c4c316514.svg",
     iconBg: "#E6DEDD",
-    // date: "May 2023 - Present",
+    date: "December 2022 - April 2023",
     points: [
-      "Contributed to the enhancement of Wisper's internet service platform, ensuring seamless user experiences.",
-      "Collaborated with the team to optimize backend architecture for reliable and efficient data delivery.",
-      "Developed APIs for services and reliability.",
-      "Supported network stability and uptime.",
+      "Built automated onboarding, due diligence, and gas request workflows with NestJS.",
+      "Integrated payment systems and external scheduling tools like Calendly.",
+      "Implemented CMS capabilities using Sanity for internal teams.",
+      "Engineered a dynamic questionnaire system, automating and optimizing customer due diligence processes.",
+      "Implemented robust role-based access controls, ensuring granular security measures for sensitive data handling.",
     ],
   },
   {
-    title: "FullStack Mobile Engineer",
+    title: "Senior Full Stack Engineer",
     company_name: "Tinapay",
     company_link: "https://tinapay.co/",
     icon: tinapay,
     iconBg: "#E6DEDD",
-    // date: "May 2023 - Present",
+    date: "January 2022 - October 2022",
     points: [
+      "Built and optimized React.js and React Native features, boosting performance by 35%.",
+      "Developed APIs using NestJS and Express.js with PostgreSQL and MongoDB.",
+      "Ensured synchronization between mobile and web platforms with 95% uptime.",
       "Contributed to the development and improvement of Tinapay's mobile app backend, ensuring a robust and scalable architecture.",
-      "Designed, developed, and maintained APIs that supported seamless interactions between the Tinapay mobile app and backend services..",
-      "Worked on both mobile and web backend systems, ensuring a consistent and integrated experience for users across different platforms.",
-      "Collaborated with quality assurance teams to conduct thorough testing, identifying and resolving potential issues to ensure the stability and security of the Tinapay mobile app.",
-      "Participated in regular code reviews and team discussions to foster a culture of continuous improvement.",
+      "Designed, developed, and maintained APIs that supported seamless interactions between the Tinapay mobile app and backend services.",
     ],
   },
   {
-    title: "Backend Engineer",
-    company_name: "SPIKE SUBS",
-    company_link: "",
-    icon: "https://www.spikesubs.com/assets/logo-e7jXajCq.png",
-    iconBg: "#E6DEDD",
-    date: "June 2022 - September 2022",
+    title: "Senior Full-Stack Developer",
+    company_name: "Black Diamond",
+    company_link: "https://blackdiamond.com/",
+    icon: "/work/blackdiamond.png",
+    iconBg: "#000000",
+    date: "February 2021 - December 2021",
     points: [
-      "Developed a VTU system using NestJS and PostgreSQL, ensuring a 99% transaction success rate with over 150+ active users.",
-      "Integrated role-based access control (RBAC) to improve security by 95%.",
-      "Optimized backend queries, leading to a 40% improvement in API response times.",
-    ],
-  },
-  {
-    title: "Backend Engineer",
-    company_name: "GACN",
-    company_link: "https://www.gacn.com/",
-    icon: "https://www.gacn.com/static/media/logo3.ea68878976beba677b68cf7c4c316514.svg",
-    iconBg: "#E6DEDD",
-    // date: "May 2023 - Present",
-    points: [
-      "Engineered a dynamic questionnaire system, automating and optimizing customer due diligence processes.",
-      "Implemented robust role-based access controls, ensuring granular security measures for sensitive data handling.",
-      "Integrated third-party APIs like Calendly and Cloudinary, enhancing functionality and scalability while maintaining data integrity and security.",
-    ],
-  },
-  {
-    title: "Backend Developer",
-    company_name: "DataCoupon",
-    company_link: "https://datacoupon.ng/",
-    icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH8AAAAUCAYAAACkjuKKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAecSURBVHgB7VpdThtJEK7qMYZdKTB5WykBZqUlQVEA5wSYE8ScADgB5gTgExBOAJwAcgLMCfBCFDmwqww/K+1bLO0+sMB071c9M2Y8/sEGRKRdf8Kyp93T1VNV/dWPYUphdHJqkTV71A5MNR3oysVvn8rUAa7nuc+cZ3nOYC1Dbqf1zr4cfqA+nhycHhh7PW2oO/gw6tbZ8WEpOfjyl7d5dniVifPdLGLIlM+/HM1RH08OlbwQw1H38OA6a6OvpjblQk766OupHeWovW4NL2DD+9THd0EmeQHD5ahHMPMiHEDe8yQO0SO00mXq47ugwfig4FlujgR3QhyA7om/LzOVVuMIP+vYT7Mzatq+dq7Lf1arPnUJz8u5Ohusnx0fLVEfdTTQPijYo0eCxHLNek79o54rVj9jqNZiWqXmV1qNwwVNDk51atiU4hcW3VCK3mdNdu/FxJvuWWoICecDHPS/ivrJt6eDdc+03wqGafu8erSYGKqNvZr+CIsupKaedlxIk39x3FRV7I5NTq85KrPjerl37Zynj7tRN/5N5ianGongvvDPq4eL6UFmM26aQ0qZ7oGz6uHa+Oup2eGsLsLya5JsDg8OL0rYwtdSVta0Dkp/nHyueGAIY4JV4ZKxKDmN6T+qTJaje2xIOT852krKktIXjLOAcOhhfR9DlWu+3ojDjpWdHZY1ChDh2jmJdRLVTwUl7Up93Qmsq+y6djwOc452VpAHzeJzAUws61Wu1XUpGeZ+mpz0BszAMr7PyzVY0acbyPz9aLdhbSTTV+pqy84lLuA55KDsxhVa3fhKqTw9Aow2pZbjLSoAME3LeN+VHOKYSdZGBp/tgG32oaiNjNK1QDs5MMPey8m384ScQv8QbLOmglZmO74fyi5i/nsJJxm68QM9kGPF6xh3477D6KuZTTZmMb5HHABveYSdAgxgy1MJQZRIdO0cRXkw3bgoWfocYiTIatg/QppdKx5nm99wPlDBulRLNveyf5wTeQhzc+LML968yTlBRmS68VmSObBkATLXrMx4bTayv1vnDufnoJf9i+qnct34mDhzn2Qvjb+und30WLsSUjZA94Q0mlCdrMrn0+Y+QQWK8MBkRd+vFLzJXEXjOCblIRfZwnfJ5pIPpdSUUTv4/ME2u24NvyLzb4bAjlqtQ1e1AXEW4lWozJN74chLGXG0IV2EPWV8TZRMPcIaMpJHP155OsjIfjylnHW8zznhtQsZlcDcLA1cZ/0mmbq+Vl7mgUlW5FDo2GkCVcD7rfF7qc07wG8Vg9uUkPc+9Qk0dA49b9Kzm/CrvtAlnmmh3Y1+tE+hbZeG3Bpd1qzxBrWLXMJlrZftWTCMRtavsZOU8XonHyThBLvY54JDzJ+dHMbPY0OSMB0cqQhH2aVeYHg3Ia8CYy5hHds7sXQesQyYev6s+tlPy7SG5Xpy7asrNXfmH9rrOO9SzCNybY0vMaRjC/aBaFVCak0Pau6AomW/VuGgaqE2ofGKQVyDIhCf2et0v9CnCuxpIm3IH+EBL6BADgE9h3ICDvVhjG65Tzaqri//pNLgyEYaV0x5fJzBqzfjk2lIgoWt8HyhTKbZWKRfrfgpmaeiYlRDYku7H8k//A4JsTW+UNgjML6gpQPZEjK1PmLcw04+Sj4kDTahA8sVUU7OJRWCxlMBsW+91a22sgm0dCPn/c+Nhku3t6P42QTDuhZXysIUScYzyozjmSlKEMN1iLs6XDp1CKODmYbbJJPNSK9h2+4+6s49BlzQVD45YDfP1ET7Djn3Nj7oSzLZRaW4pDmDLJbL6ZPQCVLZyHva8HavMQyFySHTcjxuW9gT0+tCv4Ejxg/p9dlgsJpcA3sr2AtN24nlvXidSCctQxJO7kJyH8jUYwcGhTsrkUw3KdNWFBTKRMLdNdOExiczQ48ExKdNUY4oSk5lVmd3WkyrpamyG0hMh+ElsdmCpy+JwW17mE0hqTBrAEnGUogbQzC+TylHlf0OmkFRtDUoYqXEXTsPGfNX/G6xh3LyKysqIuRsCltiD7Z0g6wiGOMr9naAuQcUMqAv5R6cvByLkMqgPicsu2yu5U3kGg5HLA9rfouNionbEYWX0jLl9xQ7B3SfLlU7QYX38KM0dyJ4ohwo6ptWmYNWp950S/lMq0LD8UsPSlllPDzsOzSRtmSKzeCZNkShVmFQBk7LpsooW8uLYiNW2ECCdiDrZEy2aIxZso4a3TMyOLKJerwk4SgYCJZE0RJKROnhViw72ixbOpfnx0e7sgdxQgqdJGY4F3N37b3yhchmistfmeMhTG1LwhbdRzfOjZtQzobstS4vdMYV6W3I11KGtpBZw5obktxRD+Aoaz2g3uHj9RGvZeoRSPY2Lk4Oi/SIkDhOQ5cuXQ7V2iU5dg7dZvp2TBijwz0Na8u9bX5T8GLmabNWu/3JfbImktQ9E5ZmJdTqa109zx0y7wKH9Sxv9nKT9O0ddiztSqvV1pi93G/MvJwc6qOOtPHpCSC0P9vt5PjHGvnnizjBEjpK0FBXcNT9k70+Hg9S6u3Dqu1/YEHDACfVd66ccjtqieLvliRQiKO5u3oG/pfuM/P/CzRyC7Sg95/y/xv+BQCdrnOuA77eAAAAAElFTkSuQmCC",
-    iconBg: "#E6DEDD",
-    // date: "May 2023 - Present",
-    points: [
-      "Developed and maintained backend systems for a coupon generation and redemption for the platform.",
-      "Optimized database queries and storage strategies to handle large volumes of coupon data efficiently",
-      "Collaborated with frontend developers to ensure seamless integration and user experience.",
-    ],
-  },
-  {
-    title: "Backend Engineer",
-    company_name: "AutoGirl NG",
-    company_link: "https://autogirl.ng/",
-    icon: "https://autogirl.ng/wp-content/uploads/2024/08/Autogirl-1-1.webp",
-    iconBg: "#E6DEDD",
-    // date: "May 2023 - Present",
-    points: [
-      "Automated the vehicle booking system, allowing users to seamlessly rent cars without manual intervention.",
-      "Developed a scalable backend using NestJS and MongoDB, ensuring efficient data storage and retrieval.",
-      "Implemented secure authentication and authorization mechanisms, improving platform security.",
-      "Integrated payment processing systems to handle transactions smoothly for renters and hosts.",
-      "Designed an automated host verification process, reducing onboarding time for car owners.",
-      "Enhanced the platform’s scheduling functionality, allowing users to pre-book vehicles efficiently.",
+      "Developed a responsive React.js interface with Tailwind CSS, raising user engagement by 30%.",
+      "Designed backend payment architecture using NestJS and Stripe.",
+      "Improved checkout and booking flows, reducing drop-off rates.",
     ],
   },
 ];
@@ -303,31 +289,121 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Smart School Transport API: Efficient Routes & Safety Enhancement",
+    name: "Writagent - AI Writing SaaS",
     description:
-      "Engineered a transformative API for a school transport system, optimizing routes, schedules, and real-time tracking. This innovation ensures student safety and punctuality, while providing intuitive interfaces for seamless communication and monitoring.",
+      "Built a comprehensive AI writing SaaS platform using NestJS, Kubernetes, RabbitMQ, and OpenAI. Architected end-to-end AI-driven workflows with LangChain, designed intuitive dashboards and admin tools with React.js and TypeScript, and automated onboarding and reporting workflows improving operational efficiency by 70%.",
     tags: [
       {
-        name: "node",
+        name: "nestjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "kubernetes",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rabbitmq",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "reactjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800",
+    source_code_link: "https://github.com/thexovc",
+  },
+  {
+    name: "Muta (Babelos) - Gamified Language Learning",
+    description:
+      "Lead engineer for Muta, a gamified language learning platform built with React Native (Expo). Designed scalable UI architecture with reusable components, implemented real-time lesson updates, streak systems, leaderboards, and progress tracking. Optimized client-side caching for thousands of concurrent learners.",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800",
+    source_code_link: "https://github.com/thexovc",
+  },
+  {
+    name: "Tinapay - Fintech Platform",
+    description:
+      "Senior Full Stack Engineer for Tinapay, a fintech platform with automated transactions, reporting, and mobile/web synchronization. Built and optimized React.js and React Native features boosting performance by 35%, developed APIs using NestJS and Express.js with PostgreSQL and MongoDB, ensuring 95% uptime.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react native",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nestjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "postgresql",
         color: "blue-text-gradient",
       },
       {
         name: "mongodb",
         color: "green-text-gradient",
       },
-      {
-        name: "express",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link:
-      "https://github.com/thexovc/uniben-bus-fare-mobile-server",
+    image: tinapay,
+    source_code_link: "https://github.com/thexovc",
   },
   {
-    name: "URL Shortener - LinkBud",
+    name: "Thumb and Pin - Fintech App",
     description:
-      "Created LinkBud, a user-friendly URL shortener for simplified link management. With an intuitive interface, it streamlines the process of shortening URLs, making sharing and monitoring links convenient and efficient.",
+      "Developed and maintained a fintech app supporting payments and virtual cards. Integrated biometric authentication and improved API response times by 30%. Collaborated with backend teams on API schema improvements and comprehensive testing strategies.",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "biometric",
+        color: "green-text-gradient",
+      },
+      {
+        name: "fintech",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
+    source_code_link: "https://github.com/thexovc",
+  },
+  {
+    name: "Black Diamond - Booking Platform",
+    description:
+      "Senior Full-Stack Developer for Black Diamond, a booking platform with Stripe integration. Developed responsive React.js interface with Tailwind CSS raising user engagement by 30%, designed backend payment architecture using NestJS and Stripe, and improved checkout and booking flows reducing drop-off rates.",
     tags: [
       {
         name: "reactjs",
@@ -338,55 +414,37 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "postgresql",
+        name: "stripe",
         color: "pink-text-gradient",
       },
       {
-        name: "typescript",
+        name: "tailwind",
         color: "blue-text-gradient",
       },
     ],
-    image: linkbud,
-    source_code_link: "https://github.com/thexovc/linkbud-url-shortener-client",
-  },
-  {
-    name: "Node.js-Powered ChatGPT Server: Quantum GPT",
-    description:
-      "Developed a powerful Node.js-based ChatGPT server, enabling seamless integration of OpenAI's language capabilities into applications. This server solution empowers real-time, interactive communication with the ChatGPT model, offering natural and engaging conversations for a wide range of use cases",
-    tags: [
-      {
-        name: "openai",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "green-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "pink-text-gradient",
-      },
-    ],
-    image:
-      "https://www.searchenginejournal.com/wp-content/uploads/2022/12/what-is-chatgpt-6393027101b3c-sej-760x400.webp",
-    source_code_link: "https://github.com/thexovc/quantum-gpt-server",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
+    source_code_link: "https://github.com/thexovc",
   },
   {
     name: "NFT Marketplace",
     description:
-      "An NFT marketplace rooted in the spirit of Africa. This platform offers a space for creators to share their digital assets, fostering a vibrant community that celebrates culture and innovation. Join us in exploring the intersection of technology and creativity.",
+      "An NFT marketplace with blockchain integration. Designed and deployed smart contracts and cross-chain token bridge (Solana ↔ Ethereum), performed gas optimization and audits, and built backend for NFT marketplace enabling smooth user interactions.",
     tags: [
       {
         name: "solidity",
         color: "blue-text-gradient",
       },
       {
-        name: "openzeppelin",
+        name: "blockchain",
         color: "green-text-gradient",
       },
       {
-        name: "hardhat",
+        name: "ethereum",
         color: "pink-text-gradient",
+      },
+      {
+        name: "solana",
+        color: "blue-text-gradient",
       },
     ],
     image: nft,

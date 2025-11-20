@@ -19,13 +19,13 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Daniel Osariemen</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Full-Stack Engineer with 6+ years of expertise in <br className="sm:block hidden" />
+            Senior Software Engineer with 7+ years of expertise in <br className="sm:block hidden" />
             building scalable web applications and systems.
           </p>
 
           {/* Tech Stack Pills */}
           <div className="mt-4 flex flex-wrap gap-2">
-            {["Node.js", "React", "TypeScript", "NestJS", "AWS"].map((tech) => (
+            {["React.js", "TypeScript", "Node.js", "NestJS", "PostgreSQL", "Kubernetes", "React Native"].map((tech) => (
               <span key={tech} className="px-3 py-1 text-sm bg-[#2A0E61] text-white rounded-full">
                 {tech}
               </span>
@@ -34,10 +34,11 @@ const Hero = () => {
 
           {/* Brief Introduction */}
           <p className="mt-6 text-white-100 text-[17px] max-w-3xl leading-[30px]">
-            Specializing in full-stack development with a focus on building 
-            high-performance applications using modern technologies. 
-            Expert in API development, system architecture, and creating 
-            seamless user experiences.
+            Full-Stack Software Engineer with 7+ years of experience designing and building scalable, 
+            high-performance applications across web, mobile, automation, and distributed systems. 
+            Expert in React.js, TypeScript, Node.js, NestJS, PostgreSQL, REST, GraphQL, and WebSockets. 
+            Highly skilled in end-to-end feature ownership from UI architecture and pixel-perfect 
+            frontend development to backend API design, database optimization, and DevOps automation.
           </p>
 
           {/* CTA Buttons */}

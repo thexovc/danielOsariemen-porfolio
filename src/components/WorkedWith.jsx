@@ -47,7 +47,7 @@ const WorkedWith = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-12 text-secondary text-[16px] md:text-[18px] max-w-3xl mx-auto text-center px-6"
       >
-        With over 6 years of experience, I've had the privilege of working with these 
+        With over 7 years of experience, I've had the privilege of working with these 
         innovative companies, delivering impactful solutions and driving technological advancement.
       </motion.p>
     </div>

@@ -82,7 +82,7 @@ const Experience = () => {
               key={`experience-${index}`}
               experience={experience}
             />
-          ))?.reverse()}
+          ))}
         </VerticalTimeline>
       </div>
     </>

@@ -12,12 +12,6 @@ const navLinks = [
     id: "contact",
     title: "Contact",
   },
-  {
-    id: "resume",
-    title: "Resume",
-    isButton: true,
-    href: "/cv/DanielOsariemenSSE.pdf"  // Replace with actual CV path
-  }
 ];
 
 const Navbar = () => {
@@ -72,17 +66,7 @@ const Navbar = () => {
               } hover:text-white text-[16px] font-medium cursor-pointer transition-colors`}
               onClick={() => setActive(nav.title)}
             >
-              {nav.isButton ? (
-                <a 
-                  href={nav.href}
-                  download
-                  className="bg-[#915EFF] hover:bg-[#7d4fdd] px-4 py-2 rounded-lg text-white transition-colors"
-                >
-                  {nav.title}
-                </a>
-              ) : (
-                <a href={`#${nav.id}`}>{nav.title}</a>
-              )}
+              <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
         </ul>
@@ -113,17 +97,7 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  {nav.isButton ? (
-                    <a 
-                      href={nav.href}
-                      download
-                      className="text-[#915EFF] hover:text-[#7d4fdd] transition-colors"
-                    >
-                      {nav.title}
-                    </a>
-                  ) : (
-                    <a href={`#${nav.id}`}>{nav.title}</a>
-                  )}
+                  <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
             </ul>
