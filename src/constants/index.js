@@ -146,6 +146,37 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Mobile Engineer",
+    company_name: "JYRO (Execution Platform)",
+    company_link: "https://jyro.app/",
+    icon: "/work/jyro.png",
+    iconBg: "#FFFFFF",
+    date: "June 2025",
+    points: [
+      "On-demand execution platform (“Uber for anything”) where users send instructions and distributed agents execute tasks with verifiable outcomes.",
+      "Architected and developed a multi-app execution platform using React Native CLI.",
+      "Built and managed 5 interconnected applications: User App (Jyro) for task tracking, Agent App for execution, Rider App for logistics, Cluster Manager for operational oversight, and Tips App for incentives.",
+      "Designed real-time task lifecycle system (request → assignment → execution → proof → completion).",
+      "Implemented scalable role-based architecture with clear separation of concerns.",
+      "Led frontend architecture decisions across multiple apps ensuring performance and maintainability.",
+    ],
+  },
+  {
+    title: "Full-Stack Developer",
+    company_name: "Helfer AI",
+    company_link: "https://helferai.com",
+    icon: "/work/helferai.png",
+    iconBg: "#FFFFFF",
+    date: "March 2025",
+    points: [
+      "Inventory management platform designed to help businesses manage products, workflows, and operations through centralized dashboards and automated backend systems.",
+      "Built and maintained a full-stack inventory management system with scalable APIs and structured database architecture.",
+      "Developed responsive dashboards and admin interfaces for operational workflows and reporting.",
+      "Implemented backend automation services to streamline inventory processes.",
+      "Improved application performance and scalability through optimized architecture decisions.",
+    ],
+  },
+  {
     title: "Senior Mobile Engineer",
     company_name: "Babelos (Muta App)",
     company_link: "https://babelos.com/",
@@ -176,19 +207,6 @@ const experiences = [
     ],
   },
   {
-    title: "Backend Engineer",
-    company_name: "MuvmentNG",
-    company_link: "https://muvment.ng/",
-    icon: "/work/muvment.webp",
-    iconBg: "#E6DEDD",
-    date: "September 2023 - June 2024",
-    points: [
-      "Built a scalable backend in NestJS and MongoDB for a vehicle rental system.",
-      "Developed microservices handling bookings, verification, and payment workflows.",
-      "Optimized API performance and automated host verification (40% faster onboarding).",
-    ],
-  },
-  {
     title: "React Native Developer",
     company_name: "Thumb and Pin",
     company_link: "https://thumbandpin.com/",
@@ -199,6 +217,34 @@ const experiences = [
       "Developed and maintained a fintech app supporting payments and virtual cards.",
       "Integrated biometric authentication and improved API response times by 30%.",
       "Collaborated with backend teams on API schema improvements and testing.",
+    ],
+  },
+  {
+    title: "Mobile Engineer",
+    company_name: "Moniger (Babelos)",
+    company_link: "https://moniger.com/",
+    icon: "/work/moniger.png",
+    iconBg: "#FFFFFF",
+    date: "March 2024",
+    points: [
+      "All-in-one personal finance management platform designed to help users track, manage, and optimize their financial activities across multiple accounts.",
+      "Developed key features using React Native (Expo) for a seamless cross-platform experience.",
+      "Implemented account aggregation, expense tracking, budgeting, and subscription management features.",
+      "Built secure and intuitive UI flows for managing virtual cards and split bill functionality.",
+      "Focused on performance optimization and smooth user experience across devices.",
+    ],
+  },
+  {
+    title: "Backend Engineer",
+    company_name: "MuvmentNG",
+    company_link: "https://muvment.ng/",
+    icon: "/work/muvment.webp",
+    iconBg: "#E6DEDD",
+    date: "September 2023 - June 2024",
+    points: [
+      "Built a scalable backend in NestJS and MongoDB for a vehicle rental system.",
+      "Developed microservices handling bookings, verification, and payment workflows.",
+      "Optimized API performance and automated host verification (40% faster onboarding).",
     ],
   },
   {
